@@ -1,0 +1,3 @@
+# Objective-C Dealloc Double-Release Bug
+
+This repository demonstrates a subtle yet critical error in Objective-C memory management that can lead to crashes.  The bug involves improperly handling object ownership within a custom `dealloc` method. This results in a double-release of an object.  The solution provides a correct implementation showcasing proper object lifecycle management.  The code examples focus on showcasing a scenario where this bug may occur, and how it can be solved with correct usage of retain, release, and autorelease.
